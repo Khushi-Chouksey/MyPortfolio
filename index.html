@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+ <link rel="stylesheet" href="style.css">
+    <title>Portfolio website</title>
+</head>
+<body>
+    <!-- header -->
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about" >About</a>
+            <a href="#services" >Skills</a>
+            <a href="#portfolio" >Portfolio</a>
+            <a href="#contact" >Contact</a>
+          
+        </nav>
+    </header>
+
+    <!-- home section???/ -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Khushi Chouksey</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>passionate about solving problems and crafting creative web solutions. </p>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/khushi-chouksey-175a2521b/" title="LinkedIn Profile" ><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Khushi-Chouksey "  title="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+                <a href="https://leetcode.com/u/Khushichouksey/"  title="leetcode Profile"><img src="images/leetcode.png"  alt="LeetCode"></a>
+              
+            </div>
+
+            <a href="cv.pdf" download="KhushiChoukseyCV.pdf" class="btn"> Download CV</a>
+
+        </div>
+
+
+        <div class="home-img">
+            <img src="./images/invertedImg.png" alt="Home Image">
+        </div>
+    </section>
+
+
+
+    <!-- About section design -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="/images/image.png" alt="About Image">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>Me</span></h2>
+           
+            <p>
+                I am an enthusiastic and motivated fresher with a strong interest in programming, specializing in Java, JavaScript, and React.js.
+            </p>
+            <div class="more-text" >
+                <p>
+                    I am proficient in SQL. With a solid understanding of Software Development Life Cycle concepts, I have demonstrated problem-solving abilities and effective communication skills. My education includes a B.Tech in Computer Science from Sagar Institute of Research and Technology, where I achieved a CGPA of 8.46.
+                </p>
+                <div class="section">
+                    <h2>Experience</h2>
+                    <p><strong>Web Developer Intern</strong><br>
+                        Hiring Dreams (July 2023 - Sept 2023)<br>
+                        Trained and worked as a web developer.
+                    </p>
+                    <p><strong>Intern</strong><br>
+                        EY GDS – AICTE Internship<br>
+                        Led Power BI analysis for unicorn businesses, driving strategic decisions with data-driven insights.
+                    </p>
+                </div>
+                <div class="section">
+                    <h2>Achievements & Involvement</h2>
+                    <ul>
+                        <li><strong>Hackathons:</strong> Participated in the APPNOVA-Hackathon organized by Cognizance at IIT Roorkee, designing a UI/UX app for space tourism.</li>
+                        <li><strong>Certifications:</strong> Certified Java developer and frontend developer.</li>
+                        <li><strong>Coding Platforms:</strong> 5-star in Java and SQL on HackerRank, solved 350+ questions on LeetCode.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <a href="#" class="btn" id="read-more-btn">Read more</a>
+        </div>
+    </section>
+
+
+    <!-- SKILLS SECTION -->
+
+     
+
+   <section class="services" id="services">
+    <h2 class="heading">My <span>Skills</span></h2>
+    <div class="services-container">
+        <div class="services-box" >
+            <i  id="java" class="fa-brands fa-java"></i>
+            <h3>Core Java</h3>
+            
+            <a href="#"class="btn" id="java-b" data-skill="java"> Know more</a>
+        </div>
+       
+        <div class="services-box">
+            <i id="dsa" class="fa-solid fa-brain"></i>
+            <h3>DSA</h3>
+            
+            <a href="#"class="btn" id="dsa-b"  data-skill="dsa"> Know more</a>
+        </div>
+        <div class="services-box">
+            <i id="javascript" class="fa-brands fa-js"></i>
+            <h3>javascript</h3>
+          
+            <a href="#"class="btn"  data-skill="javascript"  > Know more</a>
+        </div>
+        <div class="services-box">
+            <i id="html" class="fa-brands fa-html5"></i>
+            <h3>html5</h3>
+           
+            <a href="#"class="btn" id="html-b" data-skill="html"> Know more</a>
+        </div>
+      
+        <div class="services-box">
+            <i id="css" class="fa-brands fa-css3"></i>
+            <h3>CSS3</h3>
+           
+            <a href="#"class="btn"  id="css-b" data-skill="css"> Know more</a>
+        </div>
+        <div class="services-box">
+            <i id="database" class="fa-solid fa-database"></i>
+            <h3>SQL/Mongo-db</h3>
+           
+            <a href="#"class="btn"  id="database-b" data-skill="database"> Know more</a>
+        </div>
+        
+        <div class="services-box">
+            <i id="node-js" class="fa-brands fa-node-js"></i>
+            <h3>Node-js</h3>
+           
+            <a href="#"class="btn" id="node-js-b" data-skill="node-js"> Know more</a>
+        </div>
+        <div class="services-box">
+            <i id="github" class="fa-brands fa-github"></i>
+            <h3>github</h3>
+           
+            <a href="#"class="btn"  id="github-b" data-skill="github"> Know more</a>
+        </div>
+          
+      
+        
+    </div>
+   </section>
+
+
+
+   <!-- Portfolio section design  -->
+
+   <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+
+
+    <div class="portfolio-container">
+
+        <div class="portfolio-box">
+            <img src="images/1.jpg" alt="">
+        
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>An Animated fully responsive website build uisng HTML , CSS, JavaScript and GSAP.</p>
+                <a href="https://github.com/Khushi-Chouksey/project1" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="portfolio-box">
+            <img src="images/2.jpg" alt="">
+
+            <div class="portfolio-layer">
+                <h4>BlogWriting App</h4>
+                <p>A BlogWriting App built using React-js and Appwrite Backend Services.</p>
+                <a href="https://github.com/Khushi-Chouksey/BlogWritingApp" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="portfolio-box">
+            <img src="images/3.jpg" alt="">
+
+            <div class="portfolio-layer">
+                <h4>Weather App</h4>
+                <p>Weather app that gives the current weather details of all city across the world.</p>
+                <a href="https://github.com/Khushi-Chouksey/WeatherApp" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="portfolio-box">
+            <img src="images/4.jpg" alt="">
+
+            <div class="portfolio-layer">
+                <h4>Password Generator</h4>
+                <p>Gives the different combination of Password built using React & tailwind.</p>
+                <a href="https://github.com/Khushi-Chouksey/PasswordGenerator" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/5.jpg" alt="">
+
+            <div class="portfolio-layer">
+                <h4>Gif-Gallery</h4>
+                
+                <p>A website build with React-js that gives the gif corresponding to the input.</p>
+                <a href="https://github.com/Khushi-Chouksey/gif-gallery" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/6.jpg" alt="">
+
+            <div class="portfolio-layer">
+                <h4>Text-Emoji_Encryptor</h4>
+                <p>Encrypts the text into emoji and vice versa.</p>
+                <a href="https://github.com/Khushi-Chouksey/Projects/tree/main/emoji%20encrypt" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+
+        
+
+
+
+    </div>
+   </section>
+
+
+
+   <!-- contact section  -->
+   <section class="contact" id="contact">
+    <h2 class="heading">Contact  <span>Me</span></h2>
+
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="042389a1-9aa3-4a8d-a432-026726189dbc">
+        <div class="input-box">
+            <input type="text" name="fullname" placeholder="Full Name"required>
+            <input type="email" name="email" placeholder="Email Address" required>
+
+        </div>
+
+        <div class="input-box">
+            <input type="number" name="mobilenumber" placeholder="Mobile Number" required>
+            <input type="text" name="emailsubject" placeholder="Email Subject" required>
+
+        </div>
+
+        <textarea name="Message" id="" cols="30" rows=" 10" placeholder="Your Message" required></textarea>
+        <input name="submit" type="submit" value="Send Message" class="btn">
+
+    </form>
+   </section>
+
+
+
+ 
+   <!-- footer -->
+
+   <footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 by @khushichouksey | All rights Reserved</p>
+    </div>
+
+    <div class="footer-iconTop">
+        <a href="#home"> <i class="fa-solid fa-angle-up"></i></a>
+    </div>
+   </footer>
+
+
+   <!-- Modal Structure -->
+<div class="modal" id="modal">
+    <div class="modal-content">
+        <span class="close-btn" id="close-btn">&times;</span>
+        <h3 id="modal-title">Modal Title</h3>
+        <p id="modal-text">This is the detailed text that appears in the modal when you click on the "Read more" button.</p>
+    </div>
+</div>
+
+
+
+  
+   <!-- //scroll reveal -->
+   <script src="https://unpkg.com/scrollreveal"></script>
+   <!-- typed-js -->
+   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+   <!-- script-js -->
+    <script src="script.js"></script>
+</body>
+</html>
