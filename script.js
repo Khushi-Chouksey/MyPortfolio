@@ -56,7 +56,7 @@ const skillDetails = {
     },
     dsa: {
         title: 'DSA',
-        text: 'Expert in Data Structures and Algorithms, adept at solving a wide range of problems efficiently using Java. I have extensive practice with competitive programming and algorithm optimization.'
+        text: 'Proficient in Data Structures and Algorithms, adept at solving a wide range of problems efficiently using Java. I have extensive practice with  programming and algorithm optimization.'
     },
     javascript: {
         title: 'JavaScript',
@@ -68,19 +68,19 @@ const skillDetails = {
     },
     css: {
         title: 'CSS3',
-        text: 'Expert in CSS3, enabling me to design responsive and visually appealing websites. I use modern CSS techniques like Flexbox, Grid, and animations to enhance UI/UX.'
+        text: 'Proficient in CSS3, enabling me to design responsive and visually appealing websites. I use modern CSS techniques like Flexbox, Grid, and animations to enhance UI/UX.'
     },
     database: {
         title: 'SQL/MongoDB',
-        text: 'Proficient in SQL for relational databases and MongoDB for NoSQL solutions. I am skilled in database design, querying, and optimizing data access for various applications.'
+        text: 'Proficient in SQL for relational databases and MongoDB for NoSQL solutions. I am skilled in database design, querying, and optimizing data access for  applications.'
     },
     'node-js': {
         title: 'Node.js',
-        text: 'Experienced in building scalable and efficient server-side applications using Node.js. I utilize Node.js to create RESTful APIs and handle asynchronous operations effectively.'
+        text: 'Currently in the learning phase of building scalable and efficient server-side applications using Node.js. I am working on creating RESTful APIs and handling asynchronous operations effectively.'
     },
     github: {
         title: 'GitHub',
-        text: 'Proficient in using GitHub for version control and collaboration. I manage repositories, contribute to open source projects, and utilize best practices for code management.'
+        text: 'Proficient in using GitHub for version control and collaboration. I manage repositories and utilize best practices for code management.'
     }
 };
 
@@ -185,15 +185,6 @@ ScrollReveal().reveal('.home-contact p , .about-content' , {origin:"right"});
 
 
 
-////////////////////////// typed js/////////////////////
-
-// const typed = new Typed('.multiple-text',{
-//     strings :['Frontend Developer' ,'Web Designer' ,'programmer'],
-//     typeSpeed:70,
-//     backSpeed:70,
-//     backDelay: 1000,
-//     loop: true,
-// });
 
 
 document.addEventListener('DOMContentLoaded', function() {
